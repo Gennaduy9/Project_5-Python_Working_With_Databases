@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "project-5-python-working-with-databases"
+version = "0.1.0"
+description = ""
+authors = ["Геннадий"]
+readme = "README.md"
+packages = [{include = "project_5_python_working_with_databases"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+psycopg2 = "^2.9.6"
+psycopg2-binary = "^2.9.6"
+pytest = "^7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
